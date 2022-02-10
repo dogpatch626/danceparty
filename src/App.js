@@ -25,10 +25,10 @@ function App() {
       <DragMove onDragMove={handleDragMove}>
           <div
             style={{
-              transform: `translateX(${translate.x}px) translateY(${translate.y}px)`
+              transform: `translateX(${translate.x}px) translateY(${translate.y}px)`, backgroundColor:"black", height:"300px", width:"300px"
             }}
           >
-            <img src={Link}  />
+            <img src={Link} style={{height:"300px"}} />
           </div>
         </DragMove>
     </div>
