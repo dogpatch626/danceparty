@@ -6,7 +6,7 @@ import Lonk from "./components/Lonk";
 import Pika from "./components/Pika";
 import Kirb from "./components/Kirb";
 import Rila from "./components/Rila"
-import { flower } from "./components/flower.js";
+import { flower, message } from "./components/flower.js";
 const comp = [Tot, Lonk];
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         <Rila />
       </div>
 
-      {console.log(flower)}
+      {console.log(flower, "\n", message )}
     </div>
   );
 }

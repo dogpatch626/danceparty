@@ -1,4 +1,4 @@
-export const flower = `"M,        .mM"
+ const flower = `"M,        .mM"
                      IMIm    ,mIM"
                      ,MI:"IM,mIMm
           "IMmm,    ,IM::::IM::IM,          ,m"
@@ -54,4 +54,12 @@ IMM:::::::::IMM::::::M::::::::IIM:::::::MM,
                                             IMM"""
                                             IMM
                                             IMM  `
-
+const message = `                Hey, happy valentines day! I appreciate you with all my heart
+                 and wish I could be up there with you but I shall see you soon
+                 regaurdless. You're amazing wonderful, sweet, asbolutely gorgeous, 
+                 incredibly smart, and a million other positive descriptors. I'm 
+                 beyond lucky to be able to share even a second of my day with you. 
+                 You're such an important influence and person in my life. I hope to 
+                 continue making new memories with you. Mucho Mucho amor, <3 <3 
+                 P.S. I like you a lot :^)`; 
+export {flower, message}; 
