@@ -1,34 +1,27 @@
-#floor ul {
-    list-style: none;
-   
-    background-blend-mode: color-dodge; 
-    -webkit-transform: rotateX(45deg); /* Chrome, Safari, Opera */
-    transform: rotateX(45deg);
-  }
-  
-  #floor ul li {
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    margin: 0px 1px 1px 0px;
-    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.5);
-    
-    
-  }
 
-  #floor ul li.first {
-    -webkit-animation: floorLight1 1.5s;
-    animation: floorLight1 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-  }
 
-  @keyframes floorLight1 {
-    0%   {background:#cccccc;}
-    20%  {background:#001238;}
-    40%  {background:#56C229;}
-    55%  {background:#C894FF;}
-    70%  {background:#2584FF;}
-    80%  {background:#FD60C7;}
-    100% {background:#cccccc;}
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+  -drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
